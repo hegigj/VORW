@@ -1,0 +1,55 @@
+body{
+    left: 0;
+    top: 0;
+    background-image: url("../Assets/WaiterBackGround.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.waitLog{
+    height: 210px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: blue;
+    margin-top: 200px;
+    padding-top: 10px;
+}
+.waitH{
+    color: white;
+    font-weight: bold;
+}
+.waitLog input{
+    width: 80%;
+    height: 30px;
+    border-radius: 8px;
+    color: blue;
+}
+#waitMng{
+    width: 60%;
+    height: inherit;
+}
+#waitMng td{
+    width: 33%;
+    border-radius: 8px;
+}
+#waitMng input{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 8px;
+    color: blue;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.waitLogout{
+    border: 2px solid red!important;
+    background-color: red!important;
+    color: white!important;
+}
+#waitAction{
+    width: 60%;
+    height: inherit;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid blue;
+}

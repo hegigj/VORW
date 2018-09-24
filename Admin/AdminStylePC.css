@@ -1,0 +1,131 @@
+body{
+    left: 0;
+    top: 0;
+    background-image: url("../Assets/AdminBackGround.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.admLog img{
+    padding-top: 7px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logoName{
+    color: white;
+}
+.admLog{
+    margin-top: 140px;
+    width: 25%;
+    height: 450px;
+    background-color: red;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.admLog input{
+    width: 90%;
+    height: 45px;
+    border-radius: 8px;
+}
+.Apini{
+    height: 305px;
+}
+.Apini input{
+    width: 60%;
+ }
+.Alogsub{
+    color: red;
+    background-color: white;
+    font-family: "Arial Black";
+    font-size: 18px;
+}
+.butColor{
+    color: green;
+}
+#admMng select{
+    background-color: white;
+    color: red;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 25px;
+    width: 80%;
+    font-size: 13pt;
+}
+td #bussub,#citysub{
+    float: right;
+    width: 20%;
+    height: 25px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+    background: url("../Assets/tick.png") green;
+}
+#admMng option{
+    text-align: center;
+}
+#admMng td{
+    width: 20%;
+}
+#createNB,#busM{
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    border: none;
+}
+#Alogout{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    border: none;
+}
+#createNB p,#busM p,#Alogout{
+    text-align: center;
+    font-size: 13pt;
+}
+.createNB{
+    width: 60%;
+    height: 590px;
+    background-color: red;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.createNB input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+}
+.createNB select{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    color: red;
+}
+.createNB textarea{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+}
+#crNB{
+    font-size: 15pt;
+    height: 40px;
+    font-weight: bold;
+}
+.busM{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 60%;
+    height: inherit;
+    background-color: white;
+}
+.busM table{
+    color:white;
+    font-weight: bold;
+    font-size: 12pt;
+    padding-top: 10px;
+}

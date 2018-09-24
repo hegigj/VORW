@@ -1,0 +1,135 @@
+body{
+    left: 0;
+    top: 0;
+    background-image: url("../Assets/UserBackGround.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+#userLogin{
+    width: 30%;
+    height: 620px;
+    background-color: green;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+#userLogin td{
+    width: 50%;
+    height: 30px;
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.usrH{
+    color: white;
+    font-weight: bold;
+}
+.usrhh{
+    color: green;
+    font-weight: bold;
+}
+#userLogin input{
+    width: 60%;
+    height: 30px;
+    border-radius: 8px;
+    color: green;
+}
+#userLogin select{
+    width: 60%;
+    height: 30px;
+    border-radius: 8px;
+    color: green;
+}
+#userLogin textarea{
+    width: 60%;
+    height: 50px;
+    border-radius: 8px;
+    color: green;
+}
+#usrReg{
+    background-color: white;
+    font-weight: bold;
+    font-size: 13pt;
+}
+#usrMng{
+    width: 80%;
+    height: inherit;
+}
+#usrMng td{
+    width: 16.6%;
+    height: inherit;
+}
+#usrMng input{
+    width: 100%;
+    height: 30px;
+    font-size: 13pt;
+    font-weight: bold;
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+.usrLogout{
+    width: 100%;
+    height: 30px;
+    font-size: 14pt;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none!important;
+    background-color: red!important;
+    color: white!important;
+}
+#usrWait,#usrProd,#usrSales,#usrAcco,#usrInvent{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+}
+#usrAction td{
+    width: 50%;
+    height: 30px;
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13pt;
+}
+#usrAction input{
+    width: 60%;
+    height: 30px;
+    border-radius: 8px;
+    color: green;
+}
+#usrAction select{
+    width: 60%;
+    height: 30px;
+    border-radius: 8px;
+    color: green;
+}
+#usrAction textarea{
+    width: 60%;
+    height: 50px;
+    border-radius: 8px;
+    color: green;
+}
+.usracc{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+@keyframes outofd {
+    0%{background-color: white;color: green}
+    100%{background-color: green;color: white}
+}
+@keyframes outofa {
+    0%{color: green}
+    100%{;color: white}
+}
